@@ -18,6 +18,10 @@ password: oracle
 1. ```create user sample identified by sample;```
 2. ```grant CREATE SESSION, ALTER SESSION, CREATE DATABASE LINK, CREATE MATERIALIZED VIEW, CREATE PROCEDURE, CREATE PUBLIC SYNONYM, CREATE ROLE, CREATE SEQUENCE, CREATE SYNONYM, CREATE TABLE, CREATE TRIGGER, CREATE TYPE, CREATE VIEW, UNLIMITED TABLESPACE to sample;```
 
+### Install the Oracle Driver in your Maven Repository
+https://www.mkyong.com/maven/how-to-add-oracle-jdbc-driver-in-your-maven-local-repository/
+
+
 
 ### Run Flyway migration
 ```mvn flyway:migrate```
