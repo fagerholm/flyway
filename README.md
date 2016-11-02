@@ -8,11 +8,11 @@ More information about the Oracle Docker Image:
 https://hub.docker.com/r/wnameless/oracle-xe-11g/
 
 ### Connect to the database using the following credentials
-hostname: localhost
-port: 49161
-sid: xe
-username: system
-password: oracle
+* hostname: localhost
+* port: 49161
+* sid: xe
+* username: system
+* password: oracle
 
 #### Create a new user
 1. ```create user sample identified by sample;```
